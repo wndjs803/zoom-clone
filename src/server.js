@@ -2,6 +2,8 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 
+import "./db";
+
 const app = express();
 
 app.set("view engine", "pug");
